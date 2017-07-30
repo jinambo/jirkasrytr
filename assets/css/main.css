@@ -194,7 +194,7 @@ a:after {
 	background-image: url("bg_menu.png");
 	overflow: hidden;
 position: fixed; /* Set the navbar to fixed position */
-top: 20; /* Position the navbar at the top of the page */
+top: 25; /* Position the navbar at the top of the page */
 width: 100%; /* Full width */
 	color: black;
 
@@ -217,14 +217,14 @@ width: 100%; /* Full width */
 }
 
 .menu i {
-	font-size: 45px;
+	font-size: 30px;
 	padding-top: 15px;
 	padding-left: 70px;
 	color: white;
 }
 
 .menu i:hover {
-	font-size: 45px;
+	font-size: 30px;
 	padding-top: 15px;
 	padding-left: 70px;
 	color: grey;
@@ -234,7 +234,7 @@ width: 100%; /* Full width */
 
 .menu p {
 	padding-top: 1px;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .menu img{
