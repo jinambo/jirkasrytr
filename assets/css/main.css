@@ -69,7 +69,7 @@ a:after {
 
 
 #hlava {
-	background: url(../img/dobruska.png) no-repeat center top;
+	background: url(../img/mac.png) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -108,8 +108,8 @@ a:after {
 
 #hlava .logo {
 	text-align: left;
-	margin-left: 20px;
-	margin-top: 15px;
+	padding-left: 23%;
+	margin-top: 125px;
 }
 
 
@@ -371,15 +371,34 @@ border-radius: 10px;
   .menu i {
   	font-size: 45px;
   	padding-top: 15px;
-  	padding-left: 30px;
+  	padding-left: 25px;
   	color: white;
   }
 
-
+  .menu i:hover {
+  	font-size: 45px;
+  	padding-top: 15px;
+  	padding-left: 25px;
+  	color: grey;
+  }
 
   .menu p {
   	padding-top: 1px;
   	font-size: 20px;
+  }
+
+  .menu p:hover{
+  	text-decoration: none;
+  	color: grey;
+  }
+  #hlava .logo {
+  	text-align: left;
+  	padding-left: 6%;
+  	margin-top: 185px;
+  }
+  #hlava .logo img{
+    width: 430px;
+    height: 312px;
   }
 
 }
