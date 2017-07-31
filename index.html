@@ -101,65 +101,7 @@
 <a target="_blank" href="https://www.itnetwork.cz/portfolio/41771"><img src="assets/img/itnetwork.png" width="41px" height="39px"></a>
 
 
-<script type="text/php">
-mb_internal_encoding("UTF-8");
 
-$hlaska = '';
-if ($_POST) // V poli _POST něco je, odeslal se formulář
-{
-    if (isset($_POST['jmeno']) && $_POST['jmeno'] &&
-  isset($_POST['email']) && $_POST['email'] &&
-  isset($_POST['zprava']) && $_POST['zprava'] &&
-  isset($_POST['rok']) && $_POST['rok'] == date('Y'))
-    {
-        $hlavicka = 'From:' . $_POST['email'];
-        $hlavicka .= "\nMIME-Version: 1.0\n";
-        $hlavicka .= "Content-Type: text/html; charset=\"utf-8\"\n";
-        $adresa = 'jinambo@seznam.cz';
-        $predmet = 'Nová zpráva z mailformu';
-        $uspech = mb_send_mail($adresa, $predmet, $_POST['zprava'], $hlavicka);
-        if ($uspech)
-        {
-            $hlaska = 'Email byl úspěšně odeslán, brzy vám odpovíme.';
-        }
-        else
-            $hlaska = 'Email se nepodařilo odeslat. Zkontrolujte adresu.';
-    }
-    else
-        $hlaska = 'Formulář není správně vyplněný!';
-}
-
-?>
-</script>
-
-
-
-        <p>Můžete mě kontaktovat pomocí formuláře níže.</p>
-<script type="text/php">
-        <?php
-            if ($hlaska)
-                echo('<p>' . $hlaska . '</p>');
-        ?>
-</script>
-        <form method="POST">
-            <table>
-              <tr>
-                <td>Jméno</td>
-                <td><input name="jmeno" type="text" /></td>
-              </tr>
-              <tr>
-                <td>Email</td>
-                <td><input name="email" type="email" /></td>
-              </tr>
-        <tr>
-                <td>Aktuální rok</td>
-                <td><input name="rok" type="number" /></td>
-              </tr>
-          </table>
-          <textarea name="zprava"></textarea><br />
-
-            <input type="submit" value="Odeslat" />
-        </form>
         </div>
 				</div>
 			</div>
