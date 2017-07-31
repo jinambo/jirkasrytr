@@ -310,13 +310,13 @@ width: 100%; /* Full width */
 .zapati p{
   text-align: center;
   font-size: 20px;
-  color: black;
+  color: white;
   padding-top: 20px;
   font-family: arial;
 }
 .zapati table{
   width: 100%;
-  background-image: url(../img/bg-zapati.png);
+  background-color: grey;
 }
 
 
