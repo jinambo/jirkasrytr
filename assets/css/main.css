@@ -368,6 +368,7 @@ border-radius: 10px;
 
 .media {
   text-align: right;
+  padding-right: 6%;
   padding-bottom: 5%;
   position: fixed;
   width: 100%; /* Full width */
@@ -390,6 +391,7 @@ border-radius: 10px;
 
 .media i {
 	font-size: 38px;
+  text-align: right;
 	padding-top: 10px;
 	padding-left: 4px;
 	color: white;
@@ -397,6 +399,7 @@ border-radius: 10px;
 
 .media i:hover {
 	font-size: 38px;
+  text-align: right;
 	padding-top: 10px;
 	padding-left: 4px;
 	color: grey;
@@ -414,15 +417,13 @@ border-radius: 10px;
 
 }
 
-.media table {
-  padding-right: 10%;
-}
+
 
 
 @media screen and (max-width: 1920px){
   .media {
     text-align: right;
-    padding-right: 15%;
+    padding-right: 5%;
     padding-bottom: 5%;
     position: fixed;
     width: 100%; /* Full width */
