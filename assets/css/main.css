@@ -417,10 +417,10 @@ border-radius: 10px;
 
 
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1920px){
   .media {
     text-align: right;
-    padding-right: 15%;
+    padding-right: 25%;
     padding-bottom: 5%;
     position: fixed;
     width: 100%; /* Full width */
