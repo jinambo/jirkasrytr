@@ -368,7 +368,7 @@ border-radius: 10px;
 
 .media {
   text-align: right;
-  padding-right: 5%;
+  padding-right: 10%;
   padding-bottom: 5%;
   position: fixed;
   width: 100%; /* Full width */
@@ -417,6 +417,15 @@ border-radius: 10px;
 
 
 @media screen and (max-width: 768px) {
+
+  .media {
+    text-align: right;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    position: fixed;
+    width: 100%; /* Full width */
+  }
+
   .menu i {
   	font-size: 45px;
   	padding-top: 15px;
