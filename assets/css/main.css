@@ -366,6 +366,55 @@ border-color: white;
 border-radius: 10px;
 }
 
+.media {
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  position: fixed;
+  width: 100%; /* Full width */
+}
+
+.media a {
+	text-decoration: none;
+	color: white;
+}
+
+.media a:hover{
+	text-decoration: none;
+	color: grey;
+}
+
+.media p:hover{
+	text-decoration: none;
+	color: grey;
+}
+
+.media i {
+	font-size: 38px;
+	padding-top: 10px;
+	padding-left: 4px;
+	color: white;
+}
+
+.media i:hover {
+	font-size: 38px;
+	padding-top: 10px;
+	padding-left: 4px;
+	color: grey;
+}
+
+
+
+.media p {
+	padding-top: 1px;
+	font-size: 16px;
+}
+
+.media img{
+	padding-bottom: 15px;
+
+}
+
 
 @media screen and (max-width: 768px) {
   .menu i {
