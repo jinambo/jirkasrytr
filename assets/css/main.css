@@ -368,26 +368,12 @@ border-radius: 10px;
 
 .media {
   text-align: right;
-  padding-right: 6%;
+  padding-right: 25%;
   padding-bottom: 5%;
   position: fixed;
   width: 100%; /* Full width */
 }
 
-.media a {
-	text-decoration: none;
-	color: white;
-}
-
-.media a:hover{
-	text-decoration: none;
-	color: grey;
-}
-
-.media p:hover{
-	text-decoration: none;
-	color: grey;
-}
 
 .media i {
 	font-size: 38px;
@@ -410,24 +396,27 @@ border-radius: 10px;
 	font-size: 16px;
 }
 
-.media img{
-	padding-bottom: 15px;
-
-}
 
 
 
 
-@media screen and (max-width: 1920px){
+
+
+
+
+@media screen and (max-width: 1280px){
   .media {
     text-align: right;
-    padding-right: 15%;
+    padding-right: 5%;
     padding-bottom: 5%;
     position: fixed;
     width: 100%; /* Full width */
   }
 
+
 }
+
+
 
 @media screen and (max-width: 768px) {
 
