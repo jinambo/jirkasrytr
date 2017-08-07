@@ -75,7 +75,7 @@ a:after {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 800px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -114,7 +114,6 @@ a:after {
 
 
 
-
 #f {
 	background: #1a1a1a;
 	padding-top: 70px;
@@ -140,7 +139,25 @@ a:after {
 	font-size: 20px;
 	color: #f2f2f2;
   font-family: arial;
+
 }
+
+#f textarea {
+  width: 90%;
+  height: 90px;
+}
+
+#f table {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+#f input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
 
 #f img {
 	text-align: center;
@@ -219,14 +236,16 @@ width: 100%; /* Full width */
 .menu i {
 	font-size: 30px;
 	padding-top: 15px;
-	padding-left: 70px;
+	padding-left: 40px;
+  padding-right: 18px;
 	color: white;
 }
 
 .menu i:hover {
 	font-size: 30px;
 	padding-top: 15px;
-	padding-left: 70px;
+	padding-left: 40px;
+  padding-right: 18px;
 	color: grey;
 }
 
@@ -429,16 +448,18 @@ border-radius: 10px;
   }
 
   .menu i {
-  	font-size: 45px;
+  	font-size: 40px;
   	padding-top: 15px;
   	padding-left: 25px;
+    padding-right: 8px;
   	color: white;
   }
 
   .menu i:hover {
-  	font-size: 45px;
+    font-size: 40px;
   	padding-top: 15px;
   	padding-left: 25px;
+    padding-right: 8px;
   	color: grey;
   }
 
