@@ -643,6 +643,16 @@ height: 85px;
   margin-left: 15px;
   font-family: Exo;
 }
+
+
+
+@media screen and (max-width: 1920px) {
+#obsah table {
+  width: 1920px;
+}
+}
+
+
 @media screen and (max-width: 560px) {
   .responsivemenu {
     visibility: visible;
