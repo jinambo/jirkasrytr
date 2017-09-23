@@ -106,7 +106,7 @@ a:after {
 }
 
 #obsah p {
-	font-size: 20px;
+	font-size: 12px;
   padding-top: 8px;
 	color: #f2f2f2;
   font-family: Exo;
@@ -119,7 +119,7 @@ a:after {
   font-family: Exo;
   text-align: left;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
   margin-left: 25px;
 
 }
@@ -265,7 +265,7 @@ a:after {
   font-family: Exo;
   text-align: left;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
   margin-left: 25px;
 
 }
@@ -634,7 +634,7 @@ height: 85px;
   font-family: Exo;
   text-decoration: overline;
   color: #f85c37;
-  padding-top: 15px;
+  padding-top: 55px;
   padding-left: 10px;
   float: left;
 }
@@ -678,6 +678,12 @@ visibility: hidden;
   width: 100%;
 }
 
+#obsah b {
+  font-size: 13px;
+}
+#komentar b {
+  font-size: 13px;
+}
 #responsivelogin {
   visibility: visible;
   display: block;
