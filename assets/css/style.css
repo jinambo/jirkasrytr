@@ -554,7 +554,7 @@ visibility: hidden;
 
 #prispevek {
   padding-top: 0px;
-  width: 540px;
+  width: 760px;
 }
 
 #login {
@@ -564,28 +564,28 @@ visibility: hidden;
 }
 
 #komentar table {
-  width: 540px;
+  width: 760px;
 }
 
 #telo {
   margin-top: 0px;
-  width: 540px;
+  width: 760px;
 }
 
 #obsah {
-  width: 540px;
+  width: 760px;
 }
 
 #responsivelogin {
   visibility: visible;
   display: block;
-  width: 540px;
+  width: 760px;
 }
 #header {
-width: 540px;
+width: 760px;
 }
 #obsah_wrapper {
-width: 540px;
+width: 760px;
 }
 #obsah {
 width: auto; float: inherit;
@@ -596,10 +596,10 @@ width: auto; float: inherit;
 }
 
 #footer {
-width: 5400px;
+width: 760px;
 }
 #footer2 {
-width: 540px; 
+width: 760px 
 }
 .menu {
   position: fixed;
