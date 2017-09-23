@@ -554,7 +554,7 @@ visibility: hidden;
 
 #prispevek {
   padding-top: 0px;
-  width: 760px;
+  width: 100%;
 }
 
 #login {
@@ -564,22 +564,22 @@ visibility: hidden;
 }
 
 #komentar table {
-  width: 760px;
+  width: 100%;
 }
 
 #telo {
   margin-top: 0px;
-  width: 760px;
+  width: 100%;
 }
 
 #obsah {
-  width: 760px;
+  width: 100%;
 }
 
 #responsivelogin {
   visibility: visible;
   display: block;
-  width: 760px;
+  width: 100%;
 }
 #header {
 width: 760px;
@@ -596,10 +596,10 @@ width: auto; float: inherit;
 }
 
 #footer {
-width: 760px;
+width: 100%;
 }
 #footer2 {
-width: 760px 
+width: 100%;
 }
 .menu {
   position: fixed;
