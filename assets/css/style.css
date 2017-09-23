@@ -572,7 +572,7 @@ visibility: hidden;
   width: 100%;
 }
 
-#obsah table{
+#obsah table {
   width: 100%;
 }
 
@@ -586,13 +586,6 @@ width: 760px;
 }
 #obsah_wrapper {
 width: 760px;
-}
-#obsah {
-width: auto; float: inherit;
-}
-#obsah td {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 #footer {
