@@ -571,6 +571,10 @@ visibility: hidden;
   width: 760px;
 }
 
+#obsah {
+  width: 760px;
+}
+
 #responsivelogin {
   visibility: visible;
   display: block;
