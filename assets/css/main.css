@@ -7,6 +7,7 @@ body {
     font-size: 16px;
     color: #555;
 
+
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -23,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
+}
+
+i {
+  color: white;
 }
 
 .centered {
@@ -68,8 +73,12 @@ a:after {
 
 
 
+
+
+
+
 #hlava {
-	background: url(../img/mac.png) no-repeat center top;
+	background: url(../img/mac4.png) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -126,7 +135,7 @@ a:after {
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;
-  font-family: arial;
+  font-family: Exo;
 }
 
 #f i {
@@ -138,7 +147,7 @@ a:after {
 #f p {
 	font-size: 20px;
 	color: #f2f2f2;
-  font-family: arial;
+  font-family: Exo;
 
 }
 
@@ -165,7 +174,7 @@ a:after {
 
 
 #h {
-	background: #1a1a1a;
+	background: #333333;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
@@ -176,31 +185,70 @@ a:after {
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;
-  font-family: arial;
+  font-family: Exo, sans-serif;
 }
 
 #h i {
 	font-size: 30px;
 	color: #fff;
-    padding: 3px;
+  padding: 3px;
 }
 
 #h p {
 	font-size: 20px;
 	color: #f2f2f2;
-  font-family: arial;
+  font-family: Exo, sans-serif;
 }
 
 #h img {
 	text-align: center;
+
 }
 
 
 
 
+#p1 {
+  text-align: center;
+  float: left;
+  padding-left: 17%;
+  padding-right: 5px;
 
 
+}
 
+#p2 {
+  text-align: center;
+float: left;
+padding-right: 5px;
+}
+
+#p3 {
+  text-align: center;
+float: left;
+padding-right: 5px;
+}
+
+.telo {
+  padding-left: 18%;
+  padding-right: 18%;
+  text-align: center;
+}
+
+.telo img {
+  border-radius: 8px 8px 8px;
+  margin-top: 12px;
+  margin-right: 9px;
+
+}
+
+.telo1 {
+  padding-bottom: 10px;
+}
+
+.telo1 img {
+  margin-bottom: 2px;
+}
 
 /* MENU CONF*/
 
@@ -208,12 +256,13 @@ a:after {
 	text-align: center;
 	padding-right: 0px;
 	padding-left: 0px;
-	background-image: url("bg_menu.png");
+	background-color: #1a1a1a;
 	overflow: hidden;
 position: fixed; /* Set the navbar to fixed position */
-top: 25; /* Position the navbar at the top of the page */
 width: 100%; /* Full width */
-	color: black;
+height: 75px;
+box-shadow: black 4px 6px 20px;
+
 
 
 }
@@ -221,44 +270,51 @@ width: 100%; /* Full width */
 .menu a {
 	text-decoration: none;
 	color: white;
+  text-align: center;
 }
 
 .menu a:hover{
 	text-decoration: none;
 	color: grey;
+
 }
 
 .menu p:hover{
 	text-decoration: none;
 	color: grey;
+
 }
 
 .menu i {
 	font-size: 30px;
 	padding-top: 15px;
-	padding-left: 40px;
-  padding-right: 18px;
+	padding-left: 34px;
+  padding-right: 20px;
 	color: white;
 }
 
 .menu i:hover {
 	font-size: 30px;
 	padding-top: 15px;
-	padding-left: 40px;
-  padding-right: 18px;
+	padding-left: 34px;
+  padding-right: 20px;
 	color: grey;
 }
+
 
 
 
 .menu p {
 	padding-top: 1px;
 	font-size: 16px;
+  font-family: Exo, sans-serif;
 }
 
 .menu img{
 	padding-bottom: 0px;
 }
+
+
 
 .body-push {
 	overflow-x: hidden;
@@ -331,11 +387,11 @@ width: 100%; /* Full width */
   font-size: 20px;
   color: white;
   padding-top: 20px;
-  font-family: arial;
+  font-family: Exo, sans-serif;
 }
 .zapati table{
   width: 100%;
-  background-color: grey;
+  background-color: #333333;
 }
 
 
@@ -388,25 +444,69 @@ border-radius: 10px;
 .media {
   text-align: right;
   padding-right: 21%;
-  padding-bottom: 5%;
+  padding-bottom: 445px;
   position: fixed;
   width: 100%; /* Full width */
 }
 
+.sidebar {
+  position: fixed;
+   right: 0;
+    top: 83%;
 
-.media i {
+}
+.sidebar div {
+   text-align: center;
+    width: 120px; height: 600px;
+ }
+.sidebar .fixed {
+  position: fixed; right: 0; top: 0
+}
+
+
+.sidebar i {
 	font-size: 38px;
   text-align: right;
 	padding-top: 10px;
 	color: white;
 }
 
-.media i:hover {
+.sidebar i:hover {
 	font-size: 38px;
   text-align: right;
 	padding-top: 10px;
 	color: grey;
 }
+
+.arrow {
+  position: fixed;
+   right: 0;
+    top: 73%;
+
+}
+.arrow div {
+   text-align: center;
+    width: 120px; height: 600px;
+ }
+.arrow .fixed {
+  position: fixed; right: 0; top: 0
+}
+
+
+.arrow i {
+	font-size: 38px;
+  text-align: right;
+	padding-top: 10px;
+	color: white;
+}
+
+.arrow i:hover {
+	font-size: 38px;
+  text-align: right;
+	padding-top: 10px;
+	color: grey;
+}
+
 
 
 
@@ -439,6 +539,90 @@ border-radius: 10px;
 
 @media screen and (max-width: 768px) {
 
+  #p1 {
+    text-align: center;
+    float: left;
+    padding-left: 19%;
+    padding-right: 5px;
+
+
+  }
+
+
+
+  .arrow i {
+  	font-size: 0px;
+  }
+
+  .arrow i:hover {
+  	font-size: 0px;
+  }
+
+  .telo {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .telo1 img {
+    width: 360px;
+    height: 240px;
+  }
+
+  #p1 {
+    text-align: center;
+    padding-left: 0px;
+    float: inherit;
+
+
+
+  }
+
+  #p2 {
+    text-align: center;
+  float: inherit;
+
+  }
+
+  #p3 {
+    text-align: center;
+  float: inherit;
+
+  }
+
+
+  #weby1 {
+    text-align: center;
+    padding-left: 0px;
+    float: inherit;
+
+
+
+  }
+
+  #weby2 {
+    text-align: center;
+  float: inherit;
+
+  }
+
+  #weby3 {
+    text-align: center;
+  float: inherit;
+
+  }
+
+
+  .sidebar {
+    position: absolute;
+     right: 0;
+     left: 76%;
+      top: 155px;
+
+  }
+
+
+
+
   .media {
     text-align: right;
     padding-right: 5%;
@@ -448,7 +632,7 @@ border-radius: 10px;
   }
 
   .menu i {
-  	font-size: 40px;
+  	font-size: 28px;
   	padding-top: 15px;
   	padding-left: 25px;
     padding-right: 8px;
@@ -456,7 +640,7 @@ border-radius: 10px;
   }
 
   .menu i:hover {
-    font-size: 40px;
+    font-size: 28px;
   	padding-top: 15px;
   	padding-left: 25px;
     padding-right: 8px;
@@ -465,20 +649,21 @@ border-radius: 10px;
 
   .menu p {
   	padding-top: 1px;
-  	font-size: 20px;
+  	font-size: 14px;
   }
 
   .menu p:hover{
   	text-decoration: none;
   	color: grey;
+    font-size: 14px;
   }
   #hlava .logo {
   	text-align: center;
   	margin-top: 255px;
   }
   #hlava .logo img{
-    width: 292px;
-    height: 195px;
+    width: 288px;
+    height: 232px;
   }
 
 }
