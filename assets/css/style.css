@@ -578,6 +578,7 @@ visibility: hidden;
 #responsivelogin {
   visibility: visible;
   display: block;
+  width: 760px;
 }
 #header {
 width: 760px;
