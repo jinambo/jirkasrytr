@@ -643,6 +643,11 @@ height: 85px;
   margin-left: 15px;
   font-family: Exo;
 }
+@media screen and (max-width: 768px) {
+  .responsivemenu {
+    visibility: visible;
+  }
+}
 
 @media screen and (max-width: 768px) {
 #sidebar {
