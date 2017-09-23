@@ -563,7 +563,7 @@ visibility: hidden;
 }
 
 #komentar table {
-  width: 540px;
+  width: 760px;
 }
 
 #telo {
@@ -589,7 +589,7 @@ width: auto; float: inherit;
 }
 
 #footer {
-width: 540px;
+width: 760px;
 }
 .menu {
   position: fixed;
