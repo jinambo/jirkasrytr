@@ -136,7 +136,7 @@ a:after {
 #obsah table {
   margin-bottom: auto;
   padding-bottom: 0;
-  width: 960px;
+  width: 1600px;
   height: 100px;
   border: 1px solid white;
 }
@@ -282,7 +282,7 @@ a:after {
 #komentar table {
   margin-bottom: auto;
   padding-bottom: 0;
-  width: 1280px;
+  width: 1800px;
   height: 100px;
   border: 1px solid white;
 }
@@ -322,7 +322,7 @@ width: 300px;
 margin-right: 0px;
 margin-top: 107px;
 padding-bottom: 107px;
-margin-left: 76%;
+margin-left: 83%;
 padding-top: 40px;
 float: right;
 height: 90%;
@@ -377,7 +377,7 @@ clear: both; width: 100%;
 border: 1px solid white;
 margin-top: 20px;
 padding-bottom: 15px;
-width: 960px;
+width: 1600px;
 
 }
 
@@ -646,18 +646,18 @@ height: 85px;
 
 
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1280px) {
 #obsah table {
-  width: 1600px;
+  width: 960px;
 }
 #sidebar {
-  margin-left: 83%;
+  margin-left: 76%;
 }
 #footer {
-  width: 1600px;
+  width: 960px;
 }
 #komentar table {
-  width: 1800px;
+  width: 1280px;
 }
 }
 
