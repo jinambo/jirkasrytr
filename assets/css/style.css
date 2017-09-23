@@ -648,7 +648,16 @@ height: 85px;
 
 @media screen and (max-width: 1920px) {
 #obsah table {
-  width: 1920px;
+  width: 1600px;
+}
+#sidebar {
+  left: 85%;
+}
+#footer {
+  width: 1600px;
+}
+#komentar table {
+  width: 100%;
 }
 }
 
