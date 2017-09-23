@@ -136,7 +136,7 @@ a:after {
 #obsah table {
   margin-bottom: auto;
   padding-bottom: 0;
-  width: 1600px;
+  width: 1540px;
   height: 100px;
   border: 1px solid white;
 }
@@ -282,7 +282,7 @@ a:after {
 #komentar table {
   margin-bottom: auto;
   padding-bottom: 0;
-  width: 1800px;
+  width: 1860px;
   height: 100px;
   border: 1px solid white;
 }
@@ -322,7 +322,7 @@ width: 300px;
 margin-right: 0px;
 margin-top: 107px;
 padding-bottom: 107px;
-margin-left: 83%;
+margin-left: 84%;
 padding-top: 40px;
 float: right;
 height: 90%;
