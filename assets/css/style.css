@@ -419,21 +419,21 @@ padding-bottom: 15px;
 
 #responsivelogin a{
   font-family: Exo;
-  font-size: 21px;
+  font-size: 18px;
   color: white;
-  display: inline-block;
-  margin-left: 10px;
+  display: block;
   padding-left: 5px;
   padding-right: 5px;
 
 }
 
 #responsivelogin i {
-  margin-top: 10px;
+  display: inline-block;
+  
   height: 35px;
-  font-size: 14px;
+  font-size: 20px;
   color: white;
-  margin-right: 10px;
+
 }
 
 #responsivelogin {
@@ -707,6 +707,10 @@ visibility: hidden;
   visibility: visible;
   display: block;
   width: 100%;
+}
+
+#responsivelogin button{
+  width: 160px;
 }
 .responsivemenu {
   visibility: visible;
