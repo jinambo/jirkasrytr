@@ -505,7 +505,8 @@ padding-bottom: 15px;
 }
 
 #responsivelogin button {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
+  margin-left: 1px;
 
 }
 
