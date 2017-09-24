@@ -298,6 +298,61 @@ a:after {
 }
 
 
+#ikona {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-left: 29%;
+}
+
+#ikona p {
+  font-size: 32px;
+  color: #f2f2f2;
+  font-family: Exo;
+  text-align: left;
+  display: block;
+  margin-top: 15px;
+}
+
+#ikona i {
+  margin-top: 10px;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+#profil {
+margin-top: 20px;
+text-align: center;
+margin-left: 15px;
+padding-bottom: 25px;
+margin-right: 30%;
+}
+
+
+#profil i {
+  margin-top: 10px;
+  margin-bottom: 8px;
+	font-size: 30px;
+	color: #fff;
+
+}
+
+#profil p {
+	font-size: 20px;
+	color: #f2f2f2;
+  font-family: Exo;
+}
+
+#profil b {
+	font-size: 30px;
+	color: #f2f2f2;
+  font-family: Exo;
+  margin-bottom: 8px;
+
+
+}
+
 .header {
 width: 100%;
 background-color: #ffb3b3;
@@ -429,7 +484,7 @@ padding-bottom: 15px;
 
 #responsivelogin i {
   display: inline-block;
-  
+
   height: 35px;
   font-size: 20px;
   color: white;
@@ -442,6 +497,14 @@ padding-bottom: 15px;
   display: none;
   visibility: hidden;
   text-align: center;
+}
+
+#responsivelogin input{
+  text-align: center;
+}
+#responsivelogin b {
+  font-family: Exo;
+  color: white;
 }
 
 
@@ -672,7 +735,15 @@ height: 85px;
 #sidebar {
 visibility: hidden;
 }
-
+#profil {
+  margin-right: 0%;
+  text-align: center;
+}
+#ikona {
+  margin-top: 40px;
+  margin-left: 0%;
+  text-align: center;
+}
 #prispevek {
   padding-top: 0px;
   width: 100%;
