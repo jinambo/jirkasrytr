@@ -324,7 +324,7 @@ a:after {
 #profil {
 margin-top: 20px;
 text-align: center;
-margin-left: 15px;
+margin-left: 38px;
 padding-bottom: 25px;
 margin-right: 30%;
 }
@@ -343,7 +343,11 @@ margin-right: 30%;
 	color: #f2f2f2;
   font-family: Exo;
 }
-
+#profil li {
+  font-size: 20px;
+  color: #f2f2f2;
+  font-family: Exo;
+}
 #profil b {
 	font-size: 30px;
 	color: #f2f2f2;
@@ -501,11 +505,11 @@ padding-bottom: 15px;
 
 #responsivelogin input{
   text-align: center;
-
+  margin-top: 10px;
 }
 
 #responsivelogin button {
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   margin-left: 1px;
 
 }
@@ -735,9 +739,12 @@ height: 85px;
 visibility: hidden;
 }
 #profil {
-  margin-right: 0%;
+  margin-right: 4px;
+  margin-left: 4px;
   text-align: center;
 }
+
+
 #ikona {
   margin-top: 40px;
   margin-left: 0%;
