@@ -449,7 +449,13 @@ width: 1600px;
   padding-top: 10px;
 }
 
+#footer a {
+  text-decoration: overline;
+}
 
+#footer2 a {
+  text-decoration: overline;
+}
 
 #footer2 {
 clear: both; width: 100%;
