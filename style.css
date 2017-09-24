@@ -1,0 +1,808 @@
+
+
+body {
+  background-color: #1a1a1a;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: grey;
+}
+
+
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+i {
+  color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+#telo p{
+  font-size: 20px;
+  padding-top: 8px;
+  color: #f2f2f2;
+  font-family: Exo;
+
+}
+
+#obsah {
+	background: #1a1a1a;
+	padding-bottom: 10px;
+  float: left;
+	text-align: center;
+  overflow: scroll;
+}
+
+#obsah h3 {
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;
+  font-family: Exo;
+}
+
+#obsah i {
+  margin-top: 10px;
+  margin-bottom: 8px;
+	font-size: 30px;
+	color: #fff;
+  margin-left: 5px;
+
+}
+
+#obsah p {
+	font-size: 12px;
+  padding-top: 8px;
+	color: #f2f2f2;
+  font-family: Exo;
+
+}
+
+#obsah b {
+	font-size: 18px;
+	color: #f2f2f2;
+  font-family: Exo;
+  text-align: left;
+  float: left;
+  margin-bottom: 8px;
+  margin-left: 25px;
+
+}
+
+#obsah i:hover {
+  color: grey;
+}
+
+#obsah textarea {
+  width: 90%;
+  height: 90px;
+}
+
+#obsah table {
+  margin-bottom: auto;
+  padding-bottom: 0;
+  width: 1545px;
+  height: 100px;
+  border: 1px solid white;
+}
+
+#obsah input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+#obsah img {
+	text-align: center;
+}
+
+
+#prispevek textarea {
+  text-align: center;
+}
+
+#prispevek {
+	background: #1a1a1a;
+	padding-bottom: 10px;
+  text-align: center;
+  padding-top: 75px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#prispevek h3 {
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;
+  font-family: Exo;
+}
+
+#prispevek i {
+  margin-top: 10px;
+  margin-bottom: 8px;
+	font-size: 30px;
+	color: #fff;
+  text-align: center;
+
+}
+
+#prispevek p {
+	font-size: 20px;
+  padding-top: 8px;
+	color: #f2f2f2;
+  font-family: Exo;
+  text-align: center;
+
+}
+
+#prispevek b {
+	font-size: 18px;
+	color: #f2f2f2;
+  font-family: Exo;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+#prispevek i:hover {
+  color: grey;
+}
+
+
+#prispevek table {
+  width: 960px;
+  height: 100px;
+  border: 1px solid white;
+}
+
+
+#prispevek input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+#prispevek img {
+	text-align: center;
+}
+
+
+
+
+#komentar {
+	background: #1a1a1a;
+	padding-bottom: 10px;
+  float: left;
+	text-align: center;
+  overflow: scroll;
+
+}
+
+#komentar h3 {
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 1px;
+  font-family: Exo;
+}
+
+#komentar i {
+  margin-top: 10px;
+  margin-bottom: 8px;
+	font-size: 30px;
+	color: #fff;
+  margin-left: 5px;
+
+}
+
+#komentar p {
+	font-size: 12px;
+  padding-top: 8px;
+	color: #f2f2f2;
+  font-family: Exo;
+
+}
+
+#komentar b {
+	font-size: 18px;
+	color: #f2f2f2;
+  font-family: Exo;
+  text-align: left;
+  float: left;
+  margin-bottom: 8px;
+  margin-left: 25px;
+
+}
+
+#komentar i:hover {
+  color: grey;
+}
+
+#komentar textarea {
+  width: 90%;
+  height: 90px;
+}
+
+#komentar table {
+  margin-bottom: auto;
+  padding-bottom: 0;
+  width: 1840px;
+  height: 100px;
+  border: 1px solid white;
+}
+
+#komentar input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+#komentar img {
+	text-align: center;
+}
+
+
+#ikona {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  text-align: left;
+  margin-left: 29%;
+}
+
+#ikona p {
+  font-size: 32px;
+  color: #f2f2f2;
+  font-family: Exo;
+  text-align: left;
+  display: block;
+  margin-top: 15px;
+}
+
+#ikona i {
+  margin-top: 10px;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+#profil {
+margin-top: 20px;
+text-align: center;
+margin-left: 15px;
+padding-bottom: 25px;
+margin-right: 30%;
+}
+
+
+#profil i {
+  margin-top: 10px;
+  margin-bottom: 8px;
+	font-size: 30px;
+	color: #fff;
+
+}
+
+#profil p {
+	font-size: 20px;
+	color: #f2f2f2;
+  font-family: Exo;
+}
+
+#profil b {
+	font-size: 30px;
+	color: #f2f2f2;
+  font-family: Exo;
+  margin-bottom: 8px;
+
+
+}
+
+.header {
+width: 100%;
+background-color: #ffb3b3;
+}
+#menu {
+text-align: center;
+}
+#menu ul {
+list-style-type: none;
+}
+#menu li {
+float: left; padding-right: 20px;
+}
+#obsah_wrapper {
+width: 900px;
+}
+
+#sidebar {
+  color: white;
+  background-color: #1a1a1a;
+width: 300px;
+margin-right: 0px;
+margin-top: 107px;
+padding-bottom: 107px;
+margin-left: 84%;
+padding-top: 40px;
+float: right;
+height: 90%;
+position: fixed ;
+top: 0px;
+padding-bottom: 1px;
+border: 1px solid white;
+}
+
+#sidebar table {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.log {
+  padding-left: 20%;
+}
+
+
+#sidebar p{
+  font-size: 19px;
+  line-height: 8px;
+  font-family: Exo;
+  text-decoration: overline;
+}
+#sidebar b{
+  line-height: 8px;
+  font-family: Exo;
+}
+#sidebar input {
+  width: 180px;
+}
+#sidebar button {
+  text-align: center;
+  margin-left: 15px;
+  font-family: Exo;
+}
+
+#sidebar i {
+	font-size: 50px;
+	color: white;
+  padding-left: 65px;
+}
+
+#sidebar i:hover {
+	font-size: 50px;
+	color: grey;
+}
+
+#footer {
+clear: both; width: 100%;
+border: 1px solid white;
+margin-top: 20px;
+padding-bottom: 15px;
+width: 1600px;
+
+}
+
+#footer p {
+  font-size: 20px;
+	color: #f85c37;
+  font-family: Exo;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+
+
+#footer2 {
+clear: both; width: 100%;
+border: 1px solid white;
+margin-top: 20px;
+padding-bottom: 15px;
+
+}
+
+#footer2 p {
+  font-size: 20px;
+	color: #f85c37;
+  font-family: Exo;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+#telo {
+  margin-top: 107px;
+}
+
+#responsivelogin p{
+  color: #f85c37;
+}
+
+#responsivelogin a{
+  font-family: Exo;
+  font-size: 18px;
+  color: white;
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+#responsivelogin i {
+  display: inline-block;
+
+  height: 35px;
+  font-size: 20px;
+  color: white;
+
+}
+
+#responsivelogin {
+  margin-top: 170px;
+  margin-bottom: 5px;
+  display: none;
+  visibility: hidden;
+  text-align: center;
+}
+
+#responsivelogin input{
+  text-align: center;
+  display: block;
+}
+#responsivelogin b {
+  display: inline-block;
+  font-family: Exo;
+  color: white;
+}
+
+
+
+
+
+
+
+.responsivemenu {
+  visibility: hidden;
+	text-align: center;
+	padding-right: 9px;
+	padding-left: 0px;
+	background-color: #1a1a1a;
+	overflow: hidden;
+position: fixed; /* Set the navbar to fixed position */
+  border: 1px solid white;
+width: 100%;
+height: 155px;
+
+
+
+
+}
+
+.responsivemenu a {
+	text-decoration: none;
+	color: white;
+  padding-top: 1px;
+  font-size: 28px;
+  font-family: Exo, sans-serif;
+  text-align: center;
+
+}
+
+
+.responsivemenu a:hover{
+	text-decoration: none;
+	color: grey;
+
+}
+
+.responsivemenu p:hover{
+	text-decoration: none;
+	color: grey;
+
+}
+
+.responsivemenu i {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-left: 34px;
+  padding-right: 11px;
+	color: white;
+  display: inline-block;
+}
+
+.responsivemenu i:hover {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-left: 34px;
+  padding-right: 11px;
+	color: grey;
+}
+
+
+
+
+.responsivemenu p {
+	padding-top: 1px;
+	font-size: 20px;
+  font-family: Exo, sans-serif;
+
+}
+
+.responsivemenu img{
+  float: inherit;
+	padding-bottom: 0px;
+}
+
+.responsivemenu b{
+  font-size: 45px;
+  font-family: Exo;
+  text-decoration: overline;
+  color: #f85c37;
+  padding-top: 15px;
+  padding-left: 10px;
+  display: block;
+  margin: 0px;
+}
+
+.responsivemenu b:hover{
+  color: grey;
+}
+
+
+
+
+
+.menu {
+	text-align: right;
+	padding-right: 9px;
+	padding-left: 0px;
+	background-color: #1a1a1a;
+	overflow: hidden;
+position: fixed; /* Set the navbar to fixed position */
+  border: 1px solid white;
+width: 100%;
+height: 85px;
+
+
+
+
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+  padding-top: 1px;
+  font-size: 12px;
+  font-family: Exo, sans-serif;
+  text-align: right;
+
+}
+
+
+.menu a:hover{
+	text-decoration: none;
+	color: grey;
+
+}
+
+.menu p:hover{
+	text-decoration: none;
+	color: grey;
+
+}
+
+.menu i {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-left: 34px;
+  padding-right: 11px;
+	color: white;
+}
+
+.menu i:hover {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-left: 34px;
+  padding-right: 11px;
+	color: grey;
+}
+
+
+
+
+.menu p {
+	padding-top: 1px;
+	font-size: 15px;
+  font-family: Exo, sans-serif;
+}
+
+.menu img{
+	padding-bottom: 0px;
+}
+
+.menu b{
+  font-size: 45px;
+  font-family: Exo;
+  text-decoration: overline;
+  color: #f85c37;
+  padding-top: 15px;
+  padding-left: 10px;
+  float: left;
+}
+
+.menu b:hover{
+  color: grey;
+}
+
+#login {
+  margin-top: 120px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#login b{
+  font-size: 35px;
+  font-family: Exo;
+  text-decoration: overline;
+  color: #f85c37;
+  padding-top: 55px;
+  padding-left: 10px;
+  float: left;
+}
+
+#login button {
+  margin-left: 15px;
+  font-family: Exo;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+#obsah table {
+  width: 960px;
+}
+#sidebar {
+  margin-left: 76%;
+}
+#footer {
+  width: 960px;
+}
+#komentar table {
+  width: 1280px;
+}
+}
+
+
+@media screen and (max-width: 560px) {
+  .responsivemenu {
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 768px) {
+#sidebar {
+visibility: hidden;
+}
+#profil {
+  margin-right: 0%;
+  text-align: center;
+}
+#ikona {
+  margin-top: 40px;
+  margin-left: 0%;
+  text-align: center;
+}
+#prispevek {
+  padding-top: 0px;
+  width: 100%;
+}
+
+#login {
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#komentar table {
+  width: 100%;
+}
+
+#telo {
+  margin-top: 0px;
+  width: 100%;
+}
+
+#obsah table {
+  width: 100%;
+}
+
+#obsah b {
+  font-size: 13px;
+}
+#komentar b {
+  font-size: 13px;
+}
+#responsivelogin {
+  visibility: visible;
+  display: block;
+  width: 100%;
+}
+
+#responsivelogin button{
+  width: 160px;
+}
+.responsivemenu {
+  visibility: visible;
+}
+#header {
+width: 760px;
+}
+#obsah_wrapper {
+width: 760px;
+}
+
+#footer {
+width: 100%;
+}
+#footer2 {
+width: 100%;
+}
+.menu {
+  position: fixed;
+  visibility: hidden;
+}
+}
