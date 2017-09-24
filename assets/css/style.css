@@ -501,16 +501,15 @@ padding-bottom: 15px;
 
 #responsivelogin input{
   text-align: center;
-  display: inline-block;
+  display: block;
+
 }
 #responsivelogin b {
-  display: block;
+  display: inline-block;
   font-family: Exo;
   color: white;
 }
-#responsivelogin button {
-  display: inline-block;
-}
+
 
 
 
