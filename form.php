@@ -14,7 +14,7 @@
             $hlavicka = 'From:' . $_POST['email'];
             $hlavicka .= "\nMIME-Version: 1.0\n";
             $hlavicka .= "Content-Type: text/html; charset=\"utf-8\"\n";
-            $adresa = 'vas@email.cz';
+            $adresa = 'jinambo@seznam.cz';
             $predmet = 'Nová zpráva z mailformu';
             $uspech = mb_send_mail($adresa, $predmet, $_POST['zprava'], $hlavicka);
             if ($uspech)
@@ -101,7 +101,17 @@
   		</div><!-- /container -->
   	</div><!-- /hlava -->
 
-        <p>Můžete mě kontaktovat pomocí formuláře níže.</p>
+
+
+    <section id="kontakt" name="kontakt"></section>
+  	<div id="f">
+  		<div class="container">
+  			<div class="row">
+
+  				<h3>KONTAKT</h3>
+  				<p class="centered"><i class="fa fa-envelope" aria-hidden="true"></i></i></p>
+
+<div class="col-lg-6 col-lg-offset-3">
 
         <?php
             if ($hlaska)
@@ -127,6 +137,11 @@
 
             <input type="submit" value="Odeslat" />
         </form>
+
+      </div>
+    </div>
+  </div><!-- /container -->
+</div><!-- /f -->
 
         <div class="zapati">
         <table align="center">

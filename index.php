@@ -1,26 +1,10 @@
 <?php
 
-	/*
-	 *	       __          __                __
-	 *	  ____/ /__ _   __/ /_  ____  ____  / /__ _________
-	 *	 / __  / _ \ | / / __ \/ __ \/ __ \/ //_// ___/_  /
-	 *	/ /_/ /  __/ |/ / /_/ / /_/ / /_/ / ,< _/ /__  / /_
-	 *	\__,_/\___/|___/_.___/\____/\____/_/|_(_)___/ /___/
-	 *
-	 *
-	 *      TUTORIÁLY  <>  DISKUZE  <>  KOMUNITA  <>  SOFTWARE
-	 *
-	 *	Tento zdrojový kód je součástí tutoriálů na programátorské
-	 *	sociální síti WWW.DEVBOOK.CZ
-	 *
-	 *	Kód můžete upravovat jak chcete, jen zmiňte odkaz
-	 *	na www.devbook.cz :-)
-	 */
 
     mb_internal_encoding("UTF-8");
 
     $hlaska = '';
-    if ($_POST) // V poli _POST něco je, odeslal se formulář
+    if ($_POST) 
     {
         if (isset($_POST['jmeno']) && $_POST['jmeno'] &&
 			isset($_POST['email']) && $_POST['email'] &&
@@ -46,11 +30,12 @@
 
 ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -88,6 +73,10 @@
 </table>
 
 
+
+
+
+
 	<section id="home" name="home"></section>
 	<div id="hlava">
 		<div class="container">
@@ -96,9 +85,20 @@
 			</div>
 			<br>
 			<div class="row">
-				<!--<h1>WEBOVÉ PORTFOLIO PROJEKTŮ</h1>!-->
+
 				<br>
-				<!--<h3>všechny naše doposud vytvořené projekty</h3>!-->
+    <div class="media">
+        <table>
+            <a target="_blank" href="https://www.facebook.com/jinambo.srytr"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </table>
+
+        <table>
+          <a target="_blank"href="https://www.instagram.com/jirsry/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </table>
+
+    </div>
+
+
 				<br>
 				<br>
 				<div class="col-lg-6 col-lg-offset-3">
@@ -114,14 +114,15 @@
 	<div id="f">
 		<div class="container">
 			<div class="row">
+
 				<h3>KDO JSEM?</h3>
 				<p class="centered"><i class="fa fa-user" aria-hidden="true"></i></i></p>
 
 
 				<div class="col-lg-6 col-lg-offset-3">
 					<p>Ahoj, jmenuji se Jirka Šrytr a je mi 17 let.</p>
-					<p>Studuji na Střední průmyslové škole elektrotechniky a informačních technologií v Dobrušce. Po střední škole bych se chtěl dále vzdělávat ve svém oboru na Technické univeritě v Liberci.</p>
-          <p>Ve volném čase se věnuji programování zatím v HTML, CSS a JavaScriptu a občas i počítačové grafice. V současné době se učím programovat v jazyce C++. Za peníze z brigády jsem si pořídil starší MacBook pro a v blízké době bych se chtěl začít učit dělat aplikace na iOS a macOS v programovacím jazyce SWIFT. Později bych se chtěl naučit i nějaké ty základy Javy a dalších jazyků, protože vědomosti jsou základ.</p>
+					<p>Studuji na Střední průmyslové škole elektrotechniky a informačních technologií v Dobrušce obor Aplikační software a multimédia. Po střední škole bych se chtěl dále vzdělávat ve svém oboru na Univerzitě v Pardubicích nebo na Technické univeritě v Liberci.</p>
+          <p>Ve volném čase se věnuji programování zatím v HTML, CSS, JavaScriptu a trochu PHP, ale také se zabývám počítačovou grafikou. V současné době se učím programovat v jazyce C++. Později bych se chtěl naučit i nějaké ty základy Javy a dalších jazyků, protože vědomosti jsou základ.</p>
 
 				</div>
 			</div>
@@ -136,47 +137,42 @@
 			<div class="row">
 				<h3>KONTAKT</h3>
 				<p class="centered"><i class="fa fa-envelope" aria-hidden="true"></i></p>
-
+        <p>Pokud máte zájem o jakoukoliv spolupráci spojenou s tím co dělám, neváhejte mě kontaktovat.</p>
 
 				<div class="col-lg-6 col-lg-offset-3">
-          <h3>e-mail:</h3>
-					<p>jinambo@seznam.cz</p>
-          <h3>tel. číslo:<h3>
-          <p>731 711 858</p>
+
+          <?php
+              if ($hlaska)
+                  echo('<p>' . $hlaska . '</p>');
+          ?>
+
+          <form method="POST">
+              <table align="center">
+                <tr>
+                  <td>jméno</td>
+                  <td><input name="jmeno" type="text" /></td>
+                </tr>
+                <tr>
+                  <td>email</td>
+                  <td><input name="email" type="email" /></td>
+                </tr>
+          <tr>
+                  <td>aktuální rok</td>
+                  <td><input name="rok" type="number" /></td>
+                </tr>
+            </table>
+            <textarea align="center" name="zprava"></textarea><br />
+
+              <input type="submit" value="Odeslat" />
+          </form>
+
         <div id="padding">
 
 <a target="_blank" href="https://www.facebook.com/jinambo.srytr"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 <a target="_blank"href="https://www.instagram.com/jirsry/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-<a target="_blank" href="https://www.itnetwork.cz/portfolio/41771"><img src="assets/img/itnetwork.png" width="41px" height="39px"></a>
+<a target="_blank" href="https://www.itnetwork.cz/portfolio/41771"><img src="assets/img/itnetwork.png" width="40px" height="37px"></a>
 
 
-
-<p>Můžete mě kontaktovat pomocí formuláře níže.</p>
-
-        <?php
-            if ($hlaska)
-                echo('<p>' . $hlaska . '</p>');
-        ?>
-
-        <form method="POST">
-            <table>
-            	<tr>
-            		<td>Vaše jméno</td>
-            		<td><input name="jmeno" type="text" /></td>
-            	</tr>
-            	<tr>
-            		<td>Váš email</td>
-            		<td><input name="email" type="email" /></td>
-            	</tr>
-				<tr>
-            		<td>Aktuální rok</td>
-            		<td><input name="rok" type="number" /></td>
-            	</tr>
-        	</table>
-        	<textarea name="zprava"></textarea><br />
-
-            <input type="submit" value="Odeslat" />
-        </form>
 
         </div>
 				</div>
@@ -188,7 +184,6 @@
 <table align="center">
 <tr><td>
 <p>©2017 by Šrytr</p>
-<p>textform by devbook.cz</p>
 </tr></td>
 </table>
 </div>
